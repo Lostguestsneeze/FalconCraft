@@ -102,6 +102,13 @@ public class ControlDrawer extends ControlButton {
         resizeButtons();
     }
 
+    public void setButtonVisibility(boolean buttonsVisible) {
+        areButtonsVisible = buttonsVisible;
+        for(ControlButton button : buttons) {
+            button.setVisible(areButtonsVisible);
+        }
+    }
+
     /**
      * Check whether or not the button passed as a parameter belongs to this drawer.
      *

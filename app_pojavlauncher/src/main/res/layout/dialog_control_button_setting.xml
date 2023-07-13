@@ -216,6 +216,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editOrientation_textView" />
 
+        <!-- AUTO-ACTIVATION SECTION -->
+        <TextView
+            android:id="@+id/editAutoActuation_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingEnd="5dp"
+            android:text="@string/customctrl_auto_actuation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editOrientation_spinner" />
+
+        <Spinner
+            android:id="@+id/editAutoActuation_spinner"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editAutoActuation_textView"/>
+
         <!-- TOGGLE SECTION -->
         <Switch
             android:id="@+id/checkboxToggle"
@@ -224,7 +244,7 @@
             android:text="@string/customctrl_toggle"
 
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/editOrientation_spinner"
+            app:layout_constraintTop_toBottomOf="@id/editAutoActuation_spinner"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <!-- MOUSE PASS THROUGH SECTION -->

@@ -404,6 +404,9 @@
 
     <string name="preference_gyro_damper_window_title">Smoothing time</string>
     <string name="preference_gyro_damper_window_description">Reduce jitter in exchange of latency. 0 to disable it</string>
-
+    <string name="customctrl_auto_actuation">Automatic actuation</string>
+    <string name="customctrl_auto_actuation_none">Disabled</string>
+    <string name="customctrl_auto_actuation_show_ingame">Show in-game</string>
+    <string name="customctrl_auto_actuation_hide_ingame">Hide in-game</string>
 
 </resources>
